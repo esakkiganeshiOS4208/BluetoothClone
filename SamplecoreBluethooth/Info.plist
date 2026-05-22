@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>NearShare uses the local network to discover and connect with nearby devices for file sharing.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>NearShare uses Bluetooth to discover and connect with nearby devices for file sharing.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>NearShare uses Bluetooth to discover and connect with nearby devices for file sharing.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_local-share._tcp</string>
+		<string>_local-share._udp</string>
+	</array>
+</dict>
+</plist>
